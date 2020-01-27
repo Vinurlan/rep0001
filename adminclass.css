@@ -1,0 +1,176 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(122,202,208,1);
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+
+.aside {
+    background-color: aqua;
+    width: 150px;
+    height: 900px;
+    margin: 0;
+    padding: 1px 0;
+    
+}
+
+.aside > ul {
+    padding: 0;
+    
+}
+
+.aside li {
+    margin: 0;
+}
+
+li > button {
+    margin: 0;
+    padding: 5px;
+    background-color: aqua;
+    border: 0;
+    width: 150px;
+    text-align: left;
+    font-size: 20pt;
+    transition: background-color 300ms;
+}
+
+li > button:hover {
+    background-color: rgb(153, 220, 224);
+}
+
+li > button:focus {     
+    outline: 0;
+}
+
+.focusBtn {
+    background-color: rgba(122,202,208,1);
+}
+
+.body {
+    float: right;
+    margin: 10px 0;
+}
+
+.addButton {
+    margin: 0 20px;
+    padding: 5px;
+    background-color: aqua;
+    border: 0;
+    width: 150px;
+    text-align: center;
+    transition: background-color 300ms;
+}
+
+.addButton:hover {
+    background-color: rgb(153, 220, 224);
+}
+
+.addButton:focus { 
+    outline: 0;
+}
+
+.body .listBlocks {
+    width: 100%;
+    min-height: 100px;
+    margin: 10px 0;
+}
+
+.block {
+    margin: 10px 20px;
+    padding: 5px 10px;
+    background-color: aqua;
+    height: max-content;
+    transition: height 1s;
+    transition: background-color 300ms;
+}
+
+.block:hover {
+    outline: 1px solid rgb(252, 252, 252);
+}
+
+.blockOpened {
+    background-color: white; 
+}
+
+.madalBg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: background-color 1s;
+}
+
+.madalBgLoad {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.madal {
+    position: relative;
+    margin: auto;
+    width: 1rm;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 1);
+    transition: background-color 1s;
+}
+
+.madalLoad {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.addContentBlock {
+    position: relative;
+    left: 0;
+    margin: 0 10px;
+    padding: 0;
+}
+
+.addContentBlock input {
+    float: left;
+    margin: 30px 0;
+    font-size: 15pt;
+    width: 500px;
+    height: max-content;
+    clear: both;
+}
+
+.addContentBlock textarea {
+    float: left;
+    margin: 0 0;
+    font-size: 12pt;
+    width: 500px;
+    height: 100px;
+    resize: none;
+    clear: both;
+    margin-bottom: 30px;
+}
+
+.addContentBlock .formBtnBlock {
+    float: left;
+    clear: both;
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.formBtnBlock button {
+    background-color: aqua;
+    height: 50px;
+    border: 0;
+    border-radius: 0;
+    font-size: 14pt;
+    transition: border-radius 300ms, font-size 300ms;
+}
+
+.formBtnBlock button:hover {
+    background-color: rgb(52, 255, 255);
+    border-radius: 50px;
+    font-size: 16pt;
+}

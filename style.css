@@ -1,0 +1,127 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 12pt;
+	margin: 0;
+	background-color: #505d4c;
+}
+
+.conteiner {
+	width: 700px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: #9CB34BFF;
+	height: 100px;
+	margin: 0 auto;
+}
+
+header .info {
+	background-color: #560;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	color: white;
+	visibility: visible;
+}
+
+.conteiner main {
+	margin: 0 auto;
+}
+
+.conteiner main div {
+	width: 60%;
+	background: #DFF296FF;
+	margin: 0;
+	padding: 30px;
+	float: left;
+}
+
+aside {
+	width: 40%;
+	height: 100%;
+	float: right;
+}
+
+.conteiner main aside > div {
+
+	background: #DFF296FF;
+	width: 90%;
+	float: right;
+	margin: auto 0;
+	padding: 5px;
+
+}
+
+div h3 {
+	border-top: 1px solid #9CB34BFF;
+}
+
+div a {
+	text-decoration: none;
+	color: #9CB34BFF;
+}
+
+div a:hover {
+	color: #DFF296FF;
+	background: #9B4;
+}
+div a:hover .conteiner {
+	color: #DFF296FF;
+	background: #9B4;
+}
+
+header {
+	margin: 0;
+	padding: 5px;
+}
+
+header h1 {
+	color: #DFF296FF;
+	border-bottom: 1px solid #DFF296FF;
+	text-align: center;
+	margin: 0 auto;
+	width: 400px;
+	height: 50px;
+	padding: 10px 0 0 0;
+}
+
+aside .nav {
+	border: 1px dotted black;
+	text-align: center;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+.nav + ul {
+	border-radius: 10px;
+	border-top: 2px outset #9CB34BFF;
+	border-bottom: 2px outset #9CB34BFF;
+}
+
+.nav + ul li:hover {
+	background: #9CB34BFF;
+	color: #DFF296FF;
+}
+
+footer {
+	background-color: #9CB34BFF;
+	height: 50px;
+	line-height: 50px;
+	margin: 0;
+	clear: both;
+}
+
+footer div {
+	text-align: right;
+}
+
+footer div span {
+	padding: 20px;
+}
